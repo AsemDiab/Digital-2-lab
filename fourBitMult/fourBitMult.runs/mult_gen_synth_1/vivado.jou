@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 14 08:47:18 2024
+# Process ID: 14636
+# Current directory: C:/Users/student/Desktop/fourBitMult/fourBitMult.runs/mult_gen_synth_1
+# Command line: vivado.exe -log mult_gen.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult_gen.tcl
+# Log file: C:/Users/student/Desktop/fourBitMult/fourBitMult.runs/mult_gen_synth_1/mult_gen.vds
+# Journal file: C:/Users/student/Desktop/fourBitMult/fourBitMult.runs/mult_gen_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult_gen.tcl -notrace
