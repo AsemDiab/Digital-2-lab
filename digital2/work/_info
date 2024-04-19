@@ -1,0 +1,244 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/WINDOWS/system32
+Eadder
+Z0 w1707943244
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 35
+Z3 dC:/Users/Google Tceh/Desktop/digital2
+Z4 8C:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd
+Z5 FC:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd
+l0
+L4 1
+V:?AHYbUzU_aVa>bJkY]P83
+!s100 RZ5B:A@G<OJBQEcFX_IQ_2
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1707943256
+!i10b 1
+Z8 !s108 1707943256.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd|
+Z10 !s107 C:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aadderbehave
+R1
+R2
+DEx4 work 5 adder 0 22 :?AHYbUzU_aVa>bJkY]P83
+!i122 35
+l26
+L14 21
+VzGJG^zXWG`XANmEZg_;kI0
+!s100 LaEL^XSoeA@[z>D3RM?fH1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edlatch
+Z13 w1707936853
+R1
+R2
+!i122 2
+R3
+Z14 8C:/Users/Google Tceh/Desktop/digital2/proccess.vhd
+Z15 FC:/Users/Google Tceh/Desktop/digital2/proccess.vhd
+l0
+L3 1
+VCLWX0]]XhUgTEb:;GBC8i1
+!s100 `IPGnPmc<M?mK1f_5U`dI0
+R6
+32
+Z16 !s110 1707936858
+!i10b 1
+Z17 !s108 1707936858.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/proccess.vhd|
+Z19 !s107 C:/Users/Google Tceh/Desktop/digital2/proccess.vhd|
+!i113 1
+R11
+R12
+Abehave
+R1
+R2
+DEx4 work 6 dlatch 0 22 CLWX0]]XhUgTEb:;GBC8i1
+!i122 2
+l13
+L12 9
+V=<E92=]?m7O6VgCVL5Km80
+!s100 Ubj7HeMYN0Y]?aLnJ?MCH0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Efa
+Z20 w1707942621
+R1
+R2
+!i122 25
+R3
+Z21 8C:/Users/Google Tceh/Desktop/digital2/FA.vhd
+Z22 FC:/Users/Google Tceh/Desktop/digital2/FA.vhd
+l0
+L4 1
+V?LJL;;TobI3IGC0Azc7I90
+!s100 MK5E`@z4I2S;ZbMDH;Zln2
+R6
+32
+Z23 !s110 1707942634
+!i10b 1
+Z24 !s108 1707942634.000000
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/FA.vhd|
+Z26 !s107 C:/Users/Google Tceh/Desktop/digital2/FA.vhd|
+!i113 1
+R11
+R12
+Afabehave
+R1
+R2
+DEx4 work 2 fa 0 22 ?LJL;;TobI3IGC0Azc7I90
+!i122 25
+l28
+L15 21
+V]Nd?M[4^YJXJ>g<T3Uk`X1
+!s100 =1NiM1CZX=`zb^J`K1X@<3
+R6
+32
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Eha
+Z27 w1707941997
+R1
+R2
+!i122 19
+R3
+Z28 8C:/Users/Google Tceh/Desktop/digital2/ha.vhd
+Z29 FC:/Users/Google Tceh/Desktop/digital2/ha.vhd
+l0
+L4 1
+VYE?mDUTX]1TiVnFOnV_7G1
+!s100 H3dBb1SGgD3odga_dmh8U2
+R6
+32
+Z30 !s110 1707942011
+!i10b 1
+Z31 !s108 1707942011.000000
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/ha.vhd|
+Z33 !s107 C:/Users/Google Tceh/Desktop/digital2/ha.vhd|
+!i113 1
+R11
+R12
+Ahabehave
+R1
+R2
+DEx4 work 2 ha 0 22 YE?mDUTX]1TiVnFOnV_7G1
+!i122 19
+l15
+L14 5
+VdC8OjYL^OMWX=b=_85?lX0
+!s100 b5R[cXKZWoT3Vk[I]]]J62
+R6
+32
+R30
+!i10b 1
+R31
+R32
+R33
+!i113 1
+R11
+R12
+Etb
+Z34 w1707945238
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z36 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+!i122 69
+R3
+Z37 8C:/Users/Google Tceh/Desktop/digital2/tb.vhd
+Z38 FC:/Users/Google Tceh/Desktop/digital2/tb.vhd
+l0
+L5 1
+VVQ^BPFO=MWzIF67kDIP[D3
+!s100 ni24gHCiWf@HP1DHMZfQF2
+R6
+32
+Z39 !s110 1707945243
+!i10b 1
+Z40 !s108 1707945243.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/tb.vhd|
+Z42 !s107 C:/Users/Google Tceh/Desktop/digital2/tb.vhd|
+!i113 1
+R11
+R12
+Atbb
+R35
+R36
+R1
+R2
+Z43 DEx4 work 2 tb 0 22 VQ^BPFO=MWzIF67kDIP[D3
+!i122 69
+l23
+Z44 L8 34
+VU`68>eWoFEES;KmFz^cfM3
+!s100 GG_M<Gc0m9HSlBgMO0eg31
+R6
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Atbbehave
+R35
+R36
+R1
+R2
+R43
+!i122 16
+l20
+L7 45
+VEglj8<8=A@iZTlDU3fd8A3
+!s100 _HR3CI65^[[_Hhb8YV^972
+R6
+32
+!s110 1707939138
+!i10b 1
+!s108 1707939138.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Google Tceh/Desktop/digital2/testbench.vhd|
+!s107 C:/Users/Google Tceh/Desktop/digital2/testbench.vhd|
+!i113 1
+R11
+R12
+FC:/Users/Google Tceh/Desktop/digital2/testbench.vhd
+w1707939133
+8C:/Users/Google Tceh/Desktop/digital2/testbench.vhd

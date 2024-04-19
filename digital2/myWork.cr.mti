@@ -1,0 +1,53 @@
+{C:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/adder4bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture adderBEHAVE of adder
+
+} {} {}} {C:/Users/Google Tceh/Desktop/digital2/FA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/FA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture FABEHAVE of FA
+
+} {} {}} {C:/Users/Google Tceh/Desktop/digital2/testbench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/testbench.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb
+-- Compiling architecture tbBehave of tb
+
+} {} {}} {C:/Users/Google Tceh/Desktop/digital2/ha.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/ha.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity HA
+-- Compiling architecture HABEHAVE of HA
+
+} {} {}} {C:/Users/Google Tceh/Desktop/digital2/tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb
+-- Compiling architecture tbb of tb
+
+} {} {}} {C:/Users/Google Tceh/Desktop/digital2/proccess.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/Google Tceh/Desktop/digital2/proccess.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Dlatch
+-- Compiling architecture behave of Dlatch
+
+} {} {}}

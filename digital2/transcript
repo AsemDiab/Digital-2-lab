@@ -1,0 +1,411 @@
+# Compile of proccess.vhd failed with 1 errors.
+# Compile of proccess.vhd failed with 1 errors.
+# Compile of proccess.vhd failed with 1 errors.
+# Compile of proccess.vhd failed with 1 errors.
+# Compile of proccess.vhd was successful.
+# Compile of proccess.vhd failed with 2 errors.
+# Compile of proccess.vhd was successful.
+vsim work.dlatch
+# vsim work.dlatch 
+# Start time: 20:54:34 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dlatch(behave)
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/dlatch/D \
+sim:/dlatch/E \
+sim:/dlatch/Q
+force -freeze sim:/dlatch/D 1 0
+force -freeze sim:/dlatch/E 0 0
+force -freeze sim:/dlatch/Q U 0
+run
+force -freeze sim:/dlatch/E 1 0
+run
+run -continue
+# Compile of testbench.vhd failed with 6 errors.
+# Compile of testbench.vhd was successful.
+# Compile of testbench.vhd failed with 5 errors.
+# Compile of testbench.vhd was successful.
+# Compile of testbench.vhd failed with 1 errors.
+# Compile of testbench.vhd failed with 1 errors.
+# Compile of testbench.vhd failed with 1 errors.
+# Compile of testbench.vhd was successful with warnings.
+# Compile of testbench.vhd failed with 4 errors.
+# Compile of testbench.vhd was successful.
+vsim work.tb
+# End time: 21:16:41 on Feb 14,2024, Elapsed time: 0:22:07
+# Errors: 0, Warnings: 22
+# vsim work.tb 
+# Start time: 21:16:41 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+run
+add wave -position insertpoint  \
+sim:/tb/D \
+sim:/tb/E \
+sim:/tb/Q
+run
+add wave -position insertpoint  \
+sim:/tb/uut/D \
+sim:/tb/uut/E \
+sim:/tb/uut/Q
+# Break key hit
+vsim work.tb
+# End time: 21:24:06 on Feb 14,2024, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 21:24:06 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+add wave -position insertpoint sim:/tb/*
+run
+force -freeze sim:/tb/Q 0 0
+run
+vsim work.tb
+# End time: 21:25:25 on Feb 14,2024, Elapsed time: 0:01:19
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 21:25:26 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+add wave -position insertpoint sim:/tb/*
+run
+run
+run
+# Compile of testbench.vhd was successful.
+vsim work.tb
+# End time: 21:26:22 on Feb 14,2024, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:26:22 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+add wave -position insertpoint sim:/tb/*
+run
+# Break key hit
+add wave -position insertpoint sim:/tb/*
+run
+run -continue
+run -all
+# Break key hit
+vsim work.tb
+# End time: 21:28:11 on Feb 14,2024, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 21:28:11 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+add wave -position insertpoint sim:/tb/*
+run
+run
+run
+run
+run
+run
+run
+# Compile of testbench.vhd was successful.
+vsim work.tb
+# End time: 21:29:44 on Feb 14,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim work.tb 
+# Start time: 21:29:44 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbbehave)
+# Loading work.dlatch(behave)
+add wave -position insertpoint sim:/tb/*
+run
+run
+run
+run
+run
+run
+# Ctrl+G  ==>  Goto
+# Ctrl+H  ==>  Replace
+# Ctrl+U  ==>  Delete Line
+# Ctrl+W  ==>  Add Selection To Wave
+# Break key hit
+# Compile of testbench.vhd failed with 5 errors.
+# Compile of testbench.vhd was successful.
+force -freeze sim:/tb/D1 1 0
+force -freeze sim:/tb/E1 1 0
+run
+force -freeze sim:/tb/D1 0 0
+run
+force -freeze sim:/tb/E1 0 0
+run
+force -freeze sim:/tb/D1 1 0
+run
+force -freeze sim:/tb/E1 1 0
+run
+# Compile of ha.vhd was successful.
+# Compile of ha.vhd was successful.
+vsim work.ha
+# End time: 22:17:38 on Feb 14,2024, Elapsed time: 0:47:54
+# Errors: 0, Warnings: 6
+# vsim work.ha 
+# Start time: 22:17:38 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/ha/*
+force -freeze sim:/ha/A 1 0
+force -freeze sim:/ha/s 0 0
+run
+force -freeze sim:/ha/B 0 0
+run
+run
+force -freeze sim:/ha/B 1 0
+run
+force -freeze sim:/ha/A 0 0
+run
+force -freeze sim:/ha/s 1 0
+run
+add wave -position insertpoint sim:/ha/*
+# Compile of ha.vhd was successful.
+vsim work.ha
+# End time: 22:20:36 on Feb 14,2024, Elapsed time: 0:02:58
+# Errors: 0, Warnings: 2
+# vsim work.ha 
+# Start time: 22:20:36 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/ha/*
+force -freeze sim:/ha/A 0 0
+force -freeze sim:/ha/B 1 0
+run
+force -freeze sim:/ha/A 1 0
+run
+# Compile of FA.vhd failed with 1 errors.
+# Compile of FA.vhd failed with 1 errors.
+# Compile of FA.vhd was successful.
+# Compile of FA.vhd failed with 2 errors.
+# Compile of FA.vhd was successful.
+# Compile of FA.vhd was successful.
+vsim work.fa
+# End time: 22:28:18 on Feb 14,2024, Elapsed time: 0:07:42
+# Errors: 0, Warnings: 8
+# vsim work.fa 
+# Start time: 22:28:18 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/fa/*
+force -freeze sim:/fa/A 1 0
+force -freeze sim:/fa/B 1 0
+force -freeze sim:/fa/cin 1 0
+run
+run
+force -freeze sim:/fa/A 0 0
+run
+# Compile of FA.vhd was successful.
+vsim work.fa
+# End time: 22:30:44 on Feb 14,2024, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 2
+# vsim work.fa 
+# Start time: 22:30:44 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/fa/*
+force -freeze sim:/fa/A 1 0
+force -freeze sim:/fa/B 0 0
+force -freeze sim:/fa/cin 1 0
+run
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 16 errors.
+# Compile of adder4bit.vhd was successful.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd failed with 1 errors.
+# Compile of adder4bit.vhd was successful.
+# Compile of adder4bit.vhd was successful.
+vsim work.adder
+# End time: 22:41:08 on Feb 14,2024, Elapsed time: 0:10:24
+# Errors: 0, Warnings: 13
+# vsim work.adder 
+# Start time: 22:41:08 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/adder/*
+force -freeze sim:/adder/A 1111 0
+force -freeze sim:/adder/B 1111 0
+run
+# Compile of tb.vhd was successful.
+# Compile of tb.vhd was successful.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd was successful.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 4 errors.
+# Compile of tb.vhd was successful.
+vsim work.tb
+# End time: 22:55:04 on Feb 14,2024, Elapsed time: 0:13:56
+# Errors: 0, Warnings: 9
+# vsim work.tb 
+# Start time: 22:55:04 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbb)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/tb/*
+run
+# Compile of tb.vhd failed with 4 errors.
+# Compile of tb.vhd failed with 4 errors.
+# Compile of tb.vhd failed with 4 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd was successful with warnings.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd was successful with warnings.
+# Compile of tb.vhd was successful.
+vsim work.tb
+# End time: 23:05:26 on Feb 14,2024, Elapsed time: 0:10:22
+# Errors: 0, Warnings: 20
+# vsim work.tb 
+# Start time: 23:05:26 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbb)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/tb/*
+run
+run
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd was successful.
+# Compile of tb.vhd failed with 1 errors.
+# Compile of tb.vhd failed with 25 errors.
+# Compile of tb.vhd failed with 2 errors.
+# Compile of tb.vhd failed with 4 errors.
+# Compile of tb.vhd was successful.
+vsim work.tb
+# End time: 23:14:13 on Feb 14,2024, Elapsed time: 0:08:47
+# Errors: 0, Warnings: 9
+# vsim work.tb 
+# Start time: 23:14:13 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbb)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/tb/A 0100 0
+force -freeze sim:/tb/B 0111 0
+run
+run
+vsim work.tb
+# End time: 23:15:17 on Feb 14,2024, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 23:15:17 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbb)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+run -all
+add wave -position insertpoint sim:/tb/*
+# Break key hit
+# Simulation stop requested.
+run -all
+vsim work.tb
+# End time: 23:16:12 on Feb 14,2024, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 1
+# vsim work.tb 
+# Start time: 23:16:12 on Feb 14,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.tb(tbb)
+# Loading work.adder(adderbehave)
+# Loading work.fa(fabehave)
+# Loading work.ha(habehave)
+add wave -position insertpoint sim:/tb/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 23:17:43 on Feb 14,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
