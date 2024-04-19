@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Mar  7 15:53:21 2024
+# Process ID: 6548
+# Current directory: C:/Users/Google Tceh/Desktop/Asem_Ahmad_LCD
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9692 C:\Users\Google Tceh\Desktop\Asem_Ahmad_LCD\Asem_Ahmad_LCD.xpr
+# Log file: C:/Users/Google Tceh/Desktop/Asem_Ahmad_LCD/vivado.log
+# Journal file: C:/Users/Google Tceh/Desktop/Asem_Ahmad_LCD\vivado.jou
+# Running On: DESKTOP-D4NOI8I, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 8430 MB
+#-----------------------------------------------------------
+start_gui
+open_project -part xck24-ubva530-2LV-c {C:/Users/Google Tceh/Desktop/LCD_ADDER/LCD_ADDER.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+sources_1
